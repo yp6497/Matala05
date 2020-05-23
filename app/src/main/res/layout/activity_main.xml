@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="149dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="40dp"
         android:onClick="go"
         android:text="Show graph"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -33,8 +33,8 @@
 
     <WebView
         android:id="@+id/wv"
-        android:layout_width="352dp"
-        android:layout_height="434dp"
+        android:layout_width="392dp"
+        android:layout_height="336dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.49"
@@ -52,7 +52,7 @@
         app:layout_constraintEnd_toStartOf="@+id/ed2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/wv"
-        app:layout_constraintVertical_bias="0.932" />
+        app:layout_constraintVertical_bias="0.902" />
 
     <EditText
         android:id="@+id/ed2"
@@ -64,7 +64,7 @@
         app:layout_constraintEnd_toStartOf="@+id/ed3"
         app:layout_constraintStart_toEndOf="@+id/ed1"
         app:layout_constraintTop_toBottomOf="@+id/wv"
-        app:layout_constraintVertical_bias="0.932" />
+        app:layout_constraintVertical_bias="0.902" />
 
     <EditText
         android:id="@+id/ed3"
@@ -74,7 +74,7 @@
         android:inputType="numberSigned|numberDecimal"
         app:layout_constraintBottom_toBottomOf="@+id/ed2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toEndOf="@+id/button"
         app:layout_constraintTop_toBottomOf="@+id/wv"
         app:layout_constraintVertical_bias="1.0" />
